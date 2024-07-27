@@ -1,0 +1,11 @@
+identifier: lfze4dpe71wbbfz5
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: my-blog
+homeFolder: /home/ramon/code/my-blog
+distFolder: dist/my-blog
+outDir: /home/ramon/code/my-blog/dist/static
+handle404: ''
+allowErrorCollect: false

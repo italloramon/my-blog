@@ -1,7 +1,10 @@
 import { ScullyConfig } from '@scullyio/scully';
+import '@scullyio/scully-plugin-puppeteer';
 
-  export const config: ScullyConfig = {
+
+export const config: ScullyConfig = {
   projectRoot: "./src",
+  puppeteerLaunchOptions: {args: ['--no-sandbox', '--disable-setuid--sandbox']},
   projectName: "my-blog",
   outDir: './dist/static',
   routes: {
@@ -10,6 +13,5 @@ import { ScullyConfig } from '@scullyio/scully';
       id: {
         folder: "./mdfiles"
       }
-    },}
-
+    },},
 };
